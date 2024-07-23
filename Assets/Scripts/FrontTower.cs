@@ -4,13 +4,16 @@ using UnityEngine;
 public class FrontTower : Tower
 {
     [field: SerializeField]
-    public override int HP { get; set; }
+    public override byte HP { get; set; }
     [field: SerializeField]
-    public override int DMG { get; set; }
+    public override byte DMG { get; set; }
+    [field: SerializeField, Range(0.1f, 10f)]
+    public override float Range { get; set; }
     [field: SerializeField]
     public override Transform target { get; set; }
     [field: SerializeField]
-    public override GameObject projectile { get; set; }
+    public override Projectile projectile { get; set; }
+    public override Transform pLaunchPos { get; set; }
 
     SphereCollider Aoe;
     private void Awake()
