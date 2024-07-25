@@ -20,4 +20,17 @@ public enum Tags
 {
     Player = 0,
     Enemy = 1,
+    Top = 2,
+    Mid = 3,
+    Bottom = 4,
+    Attack = 5,
+    Paladin = 6,
+}
+
+public enum AnimStates
+{
+    Idle,
+    Move,
+    Attack,
+    Dead,
 }

@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Tower
   - Enemy
+  - Top
+  - Mid
+  - Bottom
+  - Attack
+  - Paladin
+  - Border_Post
   layers:
   - Default
   - TransparentFX
