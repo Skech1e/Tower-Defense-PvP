@@ -8,6 +8,7 @@ public class Heavy : Bot
     [field: SerializeField]
     public override int DMG { get; set; }
     public override Transform target { get; set; }
+    public override Transform enemy { get; set; }
 
     CapsuleCollider Aoe;
     private void Awake()
